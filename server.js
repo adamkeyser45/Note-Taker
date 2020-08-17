@@ -15,9 +15,3 @@ app.use('/', htmlRoutes);
 app.listen(PORT, () => {
     console.log(`API server now on port ${PORT}!`);
 });
-
-
-// app.delete('api/notes/:id', (req, res) => {
-//     console.log(req.params);
-//     const deletedNote = (req.params.id);
-// })
